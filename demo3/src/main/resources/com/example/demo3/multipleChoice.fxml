@@ -1,0 +1,16 @@
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Button?>
+
+<VBox prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8"
+      xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.example.demo3.MultipleChoiceController">
+    <Label text="Cau hoi: Ban co yeu toi khong?"></Label>
+
+    <CheckBox fx:id="luachonso1" text="Co!"></CheckBox>
+    <CheckBox fx:id="luachonso2" text="Khong!"></CheckBox>
+    <Button text="Xac nhan" onAction="#xacNhanCauTraLoi"></Button>
+
+    <Label fx:id="diemtracnghiem"></Label>
+</VBox>
